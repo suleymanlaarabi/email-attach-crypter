@@ -1,0 +1,16 @@
+email/App.class
+email/ui/form/MailForm.class
+email/ui/form/FileEncryptForm.class
+email/ui/serviceComponentsUI/email/ClientLabel.class
+email/ui/form/RecipientForm.class
+email/ui/Home.class
+email/services/file/FileManager.class
+email/services/email/ClientManager.class
+email/services/file/AsymmetricFileEncrypt.class
+email/services/email/EmailClient.class
+email/services/email/EmailClient$1.class
+email/services/email/interfaces/IClient.class
+email/ui/list/RecipientList.class
+email/Main.class
+email/services/file/FileEncryptDecrypt.class
+email/services/email/Client.class

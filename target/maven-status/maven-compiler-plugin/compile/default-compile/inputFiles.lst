@@ -1,0 +1,17 @@
+/home/suleyman/Desktop/project/java/email/src/main/java/email/ui/form/RecipientForm.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/services/email/EmailClient.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/App.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/ui/form/FileEncryptForm.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/services/file/FileManager.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/services/email/Client.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/services/email/interfaces/IClientManager.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/services/email/ClientManager.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/services/file/AsymmetricFileEncrypt.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/Main.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/ui/form/MailForm.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/services/file/FileEncryptDecrypt.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/ui/Home.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/services/email/ClientManagerWithGPG.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/ui/serviceComponentsUI/email/ClientLabel.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/ui/list/RecipientList.java
+/home/suleyman/Desktop/project/java/email/src/main/java/email/services/email/interfaces/IClient.java
