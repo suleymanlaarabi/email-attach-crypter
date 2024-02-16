@@ -1,7 +1,7 @@
 package email.ui.form;
 
 import email.services.email.Client;
-import email.ui.Home;
+import email.ui.views.HomePage;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -11,7 +11,7 @@ import javafx.scene.layout.VBox;
 public class RecipientForm extends VBox {
 
     // dependencies
-    private Home home;
+    private HomePage home;
 
     // components
     private Label recipientLabel = new Label("Recipient : ");
@@ -20,7 +20,7 @@ public class RecipientForm extends VBox {
     private TextField recipientEmailInput = new TextField();
     private Button addRecipientButton = new Button("add a recipient");
 
-    public RecipientForm(Home home) {
+    public RecipientForm(HomePage home) {
         super(10);
 
         // init this component style

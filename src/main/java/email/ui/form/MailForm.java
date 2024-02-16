@@ -1,7 +1,7 @@
 package email.ui.form;
 
 import email.services.email.EmailClient;
-import email.ui.Home;
+import email.ui.views.HomePage;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -38,7 +38,7 @@ public class MailForm extends VBox {
     final double mailFormWidth = 500;
 
     public MailForm(
-            Home home, EmailClient emailClient) {
+            HomePage home, EmailClient emailClient) {
         super(10);
         this.emailClient = emailClient;
 

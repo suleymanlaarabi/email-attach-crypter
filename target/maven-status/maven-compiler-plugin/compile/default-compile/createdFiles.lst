@@ -3,7 +3,6 @@ email/ui/form/MailForm.class
 email/ui/form/FileEncryptForm.class
 email/ui/serviceComponentsUI/email/ClientLabel.class
 email/ui/form/RecipientForm.class
-email/ui/Home.class
 email/services/file/FileManager.class
 email/services/email/ClientManager.class
 email/services/file/AsymmetricFileEncrypt.class

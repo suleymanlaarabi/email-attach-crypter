@@ -1,6 +1,6 @@
 package email;
 
-import email.ui.Home;
+import email.ui.PageManager;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Scene;
@@ -44,7 +44,7 @@ public class App extends Application {
         stage.setHeight(WINDOW_HEIGHT);
 
         // Create the main scene
-        Scene mainScene = new Scene(new Home(stage));
+        Scene mainScene = new Scene(new PageManager(stage));
         stage.setScene(mainScene);
     }
 

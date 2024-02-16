@@ -3,7 +3,7 @@ package email.ui.form;
 import java.io.File;
 
 import email.services.file.FileManager;
-import email.ui.Home;
+import email.ui.views.HomePage;
 import javafx.geometry.Pos;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
@@ -16,7 +16,7 @@ import javafx.stage.FileChooser;
 public class FileEncryptForm extends HBox {
 
     // dependencies
-    private Home home;
+    private HomePage home;
 
     private FileManager fileManager = new FileManager();
 
@@ -31,7 +31,7 @@ public class FileEncryptForm extends HBox {
 
     private Alert alert = new Alert(AlertType.INFORMATION);
 
-    public FileEncryptForm(MailForm mailForm, Home home) {
+    public FileEncryptForm(MailForm mailForm, HomePage home) {
         super(10);
         // init attributes
         this.home = home;
@@ -60,7 +60,7 @@ public class FileEncryptForm extends HBox {
 
     private void initEvents() {
         this.selectFileButton.setOnAction(event -> {
-            File file = this.fileChooser.showOpenDialog(this.home.getStage());
+            File file = this.fileChooser.showOpenDialog(this.home.getPageManager().getStage());
             if (file != null && file.exists() && file.isFile()) {
                 try {
                     this.fileManager.setFile(file);

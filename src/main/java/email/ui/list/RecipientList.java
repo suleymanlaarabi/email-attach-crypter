@@ -2,8 +2,8 @@ package email.ui.list;
 
 import email.services.email.Client;
 import email.services.email.ClientManagerWithGPG;
-import email.ui.Home;
 import email.ui.serviceComponentsUI.email.ClientLabel;
+import email.ui.views.HomePage;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
@@ -15,7 +15,7 @@ import javafx.scene.text.Text;
 public class RecipientList extends VBox {
 
     // dependencies
-    private Home home;
+    private HomePage home;
 
     // components
     private TextField searchField = new TextField();
@@ -25,7 +25,7 @@ public class RecipientList extends VBox {
     private Button toggleClientManagerButton = new Button("Toggle Client Manager");
     private Text clientManagerUsedText = new Text("Client manager with GPG is used");
 
-    public RecipientList(Home home) {
+    public RecipientList(HomePage home) {
         // init attributes
         super(10);
         this.home = home;
