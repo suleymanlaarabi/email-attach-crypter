@@ -41,6 +41,10 @@ public class PageManager extends VBox {
     }
   }
 
+  public Stage getStage() {
+    return stage;
+  }
+
   public <T extends Node> T getPage(Class<T> page) {
     for (Node node : pages) {
       if (node.getClass() == page) {
